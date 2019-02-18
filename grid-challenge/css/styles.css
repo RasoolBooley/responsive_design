@@ -12,35 +12,146 @@
 
 #header {
     grid-area: header;
-    background-color: rgb(148, 64, 64);
+    background-color: green;
 }
 
 #nav {
     grid-area: nav;
-    background-color: rgb(40, 158, 148);
+    background-color: green;
 }
 
 #section {
     grid-area: section;
-    background-color: rgb(148, 212, 29);
+    background-color: green;
 }
 
 #aone {
     grid-area: aone;
-    background-color: rgb(21, 35, 163);
+    background-color: green;
 }
 
 #atwo {
     grid-area: atwo;
-    background-color: rgb(78, 78, 78);
+    background-color: green;
 }
 
 #athree {
     grid-area: athree;
-    background-color: rgb(190, 101, 156);
+    background-color: green;
 }
 
 #foot {
     grid-area: foot;
-    background-color: rgb(196, 182, 182);
+    background-color: green;
+}
+
+@media only screen and (min-width:1440px) {
+    #header {
+        grid-area: header;
+        background-color: orange;
+    }
+    
+    #nav {
+        grid-area: nav;
+        background-color: orange;
+    }
+    
+    #section {
+        grid-area: section;
+        background-color: orange;
+    }
+    
+    #aone {
+        grid-area: aone;
+        background-color: orange;
+    }
+    
+    #atwo {
+        grid-area: atwo;
+        background-color: orange;
+    }
+    
+    #athree {
+        grid-area: athree;
+        background-color: orange;
+    }
+    
+    #foot {
+        grid-area: foot;
+        background-color: orange;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #header {
+        grid-area: header;
+        background-color: blue;
+    }
+    
+    #nav {
+        grid-area: nav;
+        background-color: blue;
+    }
+    
+    #section {
+        grid-area: section;
+        background-color: blue;
+    }
+    
+    #aone {
+        grid-area: aone;
+        background-color: blue;
+    }
+    
+    #atwo {
+        grid-area: atwo;
+        background-color: blue;
+    }
+    
+    #athree {
+        grid-area: athree;
+        background-color: blue;
+    }
+    
+    #foot {
+        grid-area: foot;
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width:475px) {
+    #header {
+        grid-area: header;
+        background-color: red;
+    }
+    
+    #nav {
+        grid-area: nav;
+        background-color: red;
+    }
+    
+    #section {
+        grid-area: section;
+        background-color: red;
+    }
+    
+    #aone {
+        grid-area: aone;
+        background-color: red;
+    }
+    
+    #atwo {
+        grid-area: atwo;
+        background-color: red;
+    }
+    
+    #athree {
+        grid-area: athree;
+        background-color: red;
+    }
+    
+    #foot {
+        grid-area: foot;
+        background-color: red;
+    }
 }
