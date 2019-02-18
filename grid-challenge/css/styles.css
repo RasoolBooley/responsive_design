@@ -1,0 +1,46 @@
+#gerd {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:repeat(4, 130px);
+    grid-gap: 10px;
+    grid-template-areas: 
+                            "header header header"
+                            "nav section section"
+                            "aone atwo athree"
+                            "foot foot foot"
+}
+
+#header {
+    grid-area: header;
+    background-color: rgb(148, 64, 64);
+}
+
+#nav {
+    grid-area: nav;
+    background-color: rgb(40, 158, 148);
+}
+
+#section {
+    grid-area: section;
+    background-color: rgb(148, 212, 29);
+}
+
+#aone {
+    grid-area: aone;
+    background-color: rgb(21, 35, 163);
+}
+
+#atwo {
+    grid-area: atwo;
+    background-color: rgb(78, 78, 78);
+}
+
+#athree {
+    grid-area: athree;
+    background-color: rgb(190, 101, 156);
+}
+
+#foot {
+    grid-area: foot;
+    background-color: rgb(196, 182, 182);
+}
